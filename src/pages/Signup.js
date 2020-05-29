@@ -56,8 +56,8 @@ export default class SignUp extends Component {
           <p className="lead">Complete el siguiente formulario para registrarse.</p>
           <p>Elige tu rol</p>
           <select id="basic" className="selectpicker show-tick form-control" onChange={this.cambiarEstado} >
-                  <option value = {false} >Estudiante</option>
-                  <option value = {true} >Tutor</option>
+                  <option value = {false} >Participante</option>
+                  <option value = {true} >Moderador</option>
           </select>
           <br></br>
           <div className="form-group">

@@ -73,7 +73,7 @@ export default class Login extends Component {
             {this.state.error ? (
               <p className="text-danger">{this.state.error}</p>
             ) : null}
-            <button className="btn btn-primary px-5" type="submit">Login</button>
+            <button className="btn btn-primary px-5" type="submit">Ingresar</button>
           </div>
           <hr />
           <p>
